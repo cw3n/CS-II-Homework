@@ -15,7 +15,7 @@ public class Exercise_10_16 {
 				System.out.println(n);
 				count++;
 			}
-			n = n.add(new BigInteger("1"));
+			n = n.add(BigInteger.ONE);
 		}
 	}
-}
+}                      
